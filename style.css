@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkorange;  
+}
+.bienvenido{
+    padding: 40px;
+}
+header img{
+    width: 150px;
+    border-radius: 50%;
+}
+nav{
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 60px;
+    display: flex;
+}
+nav ul li{
+    margin-right: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.orden{
+    padding: 70px;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    list-style-type: none;
+}
+   
+.carousel {
+    display: flex;
+    background-color: rgb(222, 209, 135);
+    width: 1200px;
+   
+}
+
+
+
+.mapa{
+    display: flex;
+    background-color: rgb(222, 209, 135);
+}
+footer{
+    background-color: darkorange;
+}
